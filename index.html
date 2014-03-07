@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="style/style.css" />
+<script src="js/lrtk.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+  <!--头部-->
+    <div class="top">
+     <div class="top02"></div>
+    </div>
+  <!--头部-->
+ <div class="nav_div">
+  <ul class="nav">
+    <Li><A href="#tab01">关于前端</A></Li>
+    <Li><A href="#tab02">成就高薪</A></Li>
+    <Li><A href="#tab03">导师介绍</A></Li>
+    <Li><A href="#tab04">培养课程</A></Li>
+    <Li><A href="#tab05">报名流程</A></Li>
+    <Li><A href="#tab06">支持单位</A></Li>
+    
+  </ul>
+  </div>
+  
+  <div class="tab01" id="tab01" name="tab01"><p class="tab011"></p></div>
+  <div class="tab02" id="tab02" name="tab02"><p class="tab012"></p></div>
+  <div class="tab03" id="tab03" name="tab03"><p class="tab013"></p></div>
+  <div class="tab04" id="tab04" name="tab04"><p class="tab014"></p></div>
+  <div class="tab05" id="tab05" name="tab05"><p class="tab015"></p></div>
+  <div class="tab06" id="tab06" name="tab06"><p class="tab016"></p></div>
+  
+</div>
+
+
+  <div id="div2" style="position:absolute; right:0px;"><a href="javascript:" onclick="div2.style.display='none';" title="关闭"></a><br />
+</div>
+
+<div id="KeFuDiv" class="KeFuDiv" style=" margin:0 auto;position:absolute; right:0px;">
+  <div><img src="images/right_bg.png" height="580" border="0" usemap="#Map"></div>
+
+
+  <map name="Map" id="Map">
+    <area shape="circle" coords="123,8,9" href="javascript:" onclick="KeFuDiv.style.display='none';" title="关闭"/>
+    <area shape="rect" coords="-1,-2,185,251" href="#" />
+    <area shape="rect" coords="-2,527,179,598" href="#" />
+  </map>
+  
+</div>
+
+<script>
+
+
+//初始位置
+gID("KeFuDiv").style.top = (document.documentElement.clientHeight - gID("KeFuDiv").offsetHeight)/2+"px";
+gID("div2").style.top = (document.documentElement.clientHeight - gID("KeFuDiv").offsetHeight)/2 +"px";
+//开始滚动
+ScrollDiv('KeFuDiv');
+ScrollDiv('div2');
+
+</script>
+</body>
+</html>

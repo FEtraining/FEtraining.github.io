@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0}
+body{ font-size:12px;}
+a{ text-decoration:none;}
+ul li{ list-style:none;}
+
+.top{ height:380px; background:url(../images/top_bg02.jpg) repeat-x;}
+.top .top02{ background:url(../images/top_bg.jpg) center no-repeat; height:380px; margin:0 auto}
+.nav_div{ height:33px; line-height:33px; background:#2a2a2a;}
+.nav{ height:33px;width:765px; margin:0px auto 0px 190px;}
+.nav li{ float:left;padding-right:40px;}
+.nav li a{color:#b6b6b6;}
+.nav li a:hover{color:#49c10e;}
+.tab01{ height:470px; background:url(../images/tab011.jpg) repeat-x}
+.tab011{ height:470px; background:url(../images/tab01.jpg) center no-repeat}
+
+.tab02{ height:580px; background:url(../images/tab012.jpg)  repeat-x}
+.tab012{ height:580px; background:url(../images/tab02.jpg) center no-repeat}
+
+.tab03{ height:1148px; background:url(../images/tab013.jpg)  repeat-x}
+.tab013{ height:1148px; background:url(../images/tab03.jpg) center no-repeat}
+
+.tab04{ height:1411px; background:url(../images/tab014.jpg)  repeat-x}
+.tab014{ height:1411px; background:url(../images/tab04.jpg) center no-repeat}
+
+.tab05{ height:906px; background:url(../images/tab015.jpg)  repeat-x}
+.tab015{ height:906px; background:url(../images/tab05.jpg) center no-repeat}
+
+.tab06{ height:466px; background:url(../images/tab016.jpg)  repeat-x}
+.tab016{ height:466px; background:url(../images/tab06.jpg) center no-repeat}
+
